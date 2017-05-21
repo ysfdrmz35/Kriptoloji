@@ -1,0 +1,7 @@
+Dikkat !! Programý çalýþtýrdýðýnýzda çevirmek istediðiniz dosyanýn masaüstünde olmasýna dikkat edin 
+aksi takdirde dosya bulunamadý hatasý alýrsýnýz.
+
+isteðe baðlý olarak  text = open("C:/Users/YUSUF/Desktop/" + filename, "r")  satýrý
+text = open(filename, "r") olarak deðiþtirilebilir bu sefer dosyaya her taraftan eriþim saðlanýr fakat 
+programý çalýþtýrdýðýnýzda istenen dosya adýna dosyanýn dizininin girilmesi gerekir.
+
